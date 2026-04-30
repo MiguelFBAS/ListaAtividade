@@ -91,7 +91,7 @@ while True:
     snome1 = input('Digite o seu sobrenome: ')
     nome2 = input('Digite outro nome: ')
     snome2 = input('Digite outro sobrenome: ')
-    print(f'Se trocarmos as suas informações de lugaro o resultado é: {nome1} {snome2} {nom2} {snome2}')
+    print(f'Se trocarmos as suas informações de lugaro o resultado é: {nome1} {snome2} {nome2} {snome2}')
     time.sleep(5)
     os.system('cls')    
     break
@@ -121,7 +121,7 @@ while True:
 while True: 
     print(30*"=", "Atividade11", 30*"=")
     num20 = int(input('Quer saber quem vem antes e depois de um numero? \n Digite ele: ').replace(",", "."))
-    print(f'O antecessor é {num-1} e o sucessor é {num+1}')
+    print(f'O antecessor é {num20-1} e o sucessor é {num20+1}')
     time.sleep(5)
     os.system('cls')    
     break
