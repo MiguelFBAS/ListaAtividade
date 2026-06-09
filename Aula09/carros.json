@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "modelo": "2006 Toyota Corolla",
+        "preco": 11037.0,
+        "marca": "Toyota"
+    },
+    {
+        "id": 2,
+        "modelo": "2006 Nissan Murano",
+        "preco": 5400000.0,
+        "marca": "Nissan"
+    }
+]
