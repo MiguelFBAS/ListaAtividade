@@ -102,7 +102,8 @@ while True:
 
         elif opcao == '4':
             print ("Lista de carros: ")
-            print(f'ID: {carro['id']} | Modelo: {carro['modelo']} | preco {carro['preco']} | marca: {carro['marca']}')
+            for carro in carros:
+                print(f'ID: {carro['id']} | Modelo: {carro['modelo']} | preco {carro['preco']} | marca: {carro['marca']}')
             id_busca = int(input("Digite o ID do carro para poder deletar: "))
 
             encontrado = False
@@ -121,7 +122,7 @@ while True:
             print ("Saindo do sistema...")
             time.sleep(2)
             break
-        
+
         else:
             print ("Opção invalida.")
               
